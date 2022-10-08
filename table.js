@@ -11,7 +11,7 @@ for (let i = 0; i < rowCnt; i++) {
         document.write(list[i])
     }
     if (j==1){
-        document.write('<input type="text" name="text" size="20" style="width:95%; height:100%; border:0; background-color:#F5DDC8;">')
+        document.write('<input type="number" name="text" size="20" style="width:95%; height:100%; border:0; background-color:#F5DDC8;">')
     }
     // document.write(i + ", " + j);
     document.write('</td>');
