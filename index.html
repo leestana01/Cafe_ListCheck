@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="standard_position.css">
+    <link rel="stylesheet" href="table.css">
+    <title>재고조사 간단 정리표</title>
+</head>
+
+<body align="center" bgcolor='#F5DDC8'>
+    <!-- #DFA45B -->
+    <div>
+        <h1>재고조사 간단 정리표</h1>
+        <ul class="update_date">
+            <li>Update 22.10.08</li>
+            <li>사용자 DB 최종 업데이트 22.10.08 22:39</li>
+        </ul>
+    </div>
+
+    <div>
+        <!-- <a class="gradient-btn" href="#">작성 내용 초기화</a><br> -->
+        <a class="gradient-btn" onclick="alert('이 기능은 현재 지원하지 않습니다.')">작성 내용 초기화</a><br>
+        <a class="gradient-btn" onclick="alert('이 기능은 현재 지원하지 않습니다.')">이전 데이터 불러오기</a><br>
+        <a class="gradient-btn" nclick="alert('이 기능은 현재 지원하지 않습니다.')">작성 내용 저장</a><br>
+        <p>작성내용을 저장하면 다음 근무자가<br>해당 내용을 받아 수월하게 수정할 수 있습니다!</p>
+    </div>
+    <br>
+
+    <div>
+        <h2>정렬 기준</h2>
+        <label class="toggleSwitch" onclick="alert('이 기능은 현재 지원하지 않습니다.')">
+            <input type="checkbox" unchecked />
+            <a></a>
+            <span>
+                <span class="left-span">종이 기준</span>
+                <span class="right-span">위치 기준</span>
+            </span>											
+        </label>
+        <!-- <button>종이 기준</button> <button>위치 기준</button> -->
+        <ul class="standard_position">
+            <li>종이 기준 : 실제 재고조사 표 기준으로 정렬</li>
+            <li>위치 기준 : 실제 재고 위치 기준으로 정렬</li>
+        </ul>
+    </div>
+    <br><br>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>품명</th> <th width="80px">개수</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <!-- <tr>
+                <td>[커피] 비터홀릭(원두)</td> <td>25</td> 
+            </tr> -->
+            <script type="text/javascript" src="table.js"></script>
+            <!-- <script>
+                const rowCnt = 5;
+                const columnCnt = 2;
+        
+                for (let i = 0; i < rowCnt; i++) {
+                document.write('<tr>');
+                for (let j = 0; j < columnCnt; j++)  {
+                    document.write('<td>');
+                    document.write(i + ", " + j);
+                    document.write('</td>');
+                }
+                document.write('</tr>')
+                }
+            </script> -->
+        </tbody>
+    </table>
+
+</body>
+
+
+
+
+
+
+
+</html>
